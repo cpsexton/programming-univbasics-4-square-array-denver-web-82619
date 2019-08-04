@@ -4,7 +4,7 @@ def square_array(numbers)
   while counter < numbers.length do
     
     Math.sqrt(numbers[counter])
-    
+    puts numbers[counter]
     counter += 1
 
   end
