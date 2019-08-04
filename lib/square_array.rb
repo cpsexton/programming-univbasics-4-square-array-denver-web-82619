@@ -1,7 +1,7 @@
 def square_array(array)
   counter = 0
   
-  while counter < array.length do
+  while array[counter] do
     
     puts Math.sqrt(array[counter])
   
