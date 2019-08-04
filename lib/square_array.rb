@@ -2,8 +2,10 @@ def square_array(array)
   counter = 0
   
   while array[counter] do
-    p Math.sqrt(array[counter])
+    newly_squared_numbers = []
     
+    newly_squared_numbers.push(Math.sqrt(array[counter]))
+    p newly_squared_numbers
   
     counter += 1
 
