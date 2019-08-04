@@ -10,6 +10,14 @@ def square_array(numbers)
 
   end
 end
+square_array(numbers)
 
 
-#iterator, math function, while do
+
+
+
+
+
+
+square_array(new_numbers)
+
