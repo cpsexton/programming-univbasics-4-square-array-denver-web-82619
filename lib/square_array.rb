@@ -2,8 +2,8 @@ def square_array(array)
   counter = 0
   
   while array[counter] do
-    Math.sqrt(array[counter])
-    puts array.join
+    sum = Math.sqrt(array[counter])
+    puts sum.join
   
     counter += 1
 
