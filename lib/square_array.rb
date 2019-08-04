@@ -2,7 +2,8 @@ def square_array(numbers)
   counter = 0
   
   while counter < numbers.length do
-    Math.sqrt(numbers[counter])
+    sum = Math.sqrt(numbers[counter])
+    puts sum
     counter += 1
 
   end
