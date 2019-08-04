@@ -3,8 +3,8 @@ def square_array(array)
   
   while array[counter] do
     y = array[counter]
-    #x **= y
-    puts y
+    x = y**y
+    puts x
     
     counter += 1
     end
