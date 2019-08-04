@@ -4,11 +4,9 @@ def square_array(array)
   while array[counter] do
     newly_squared_numbers = []
     
-    newly_squared_numbers.push(Math.sqrt(array[counter]))
-    p newly_squared_numbers
-  
+    newly_squared_numbers << Math.sqrt(array[counter])
     counter += 1
-
+    p newly_squared_numbers
   end
 end
 numbers = [1,2,3]
