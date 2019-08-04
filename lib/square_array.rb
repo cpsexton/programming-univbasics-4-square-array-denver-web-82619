@@ -9,9 +9,9 @@ def square_array(numbers)
 
   end
 end
-#numbers = [1,2,3]
+numbers = [1,2,3]
 puts square_array(numbers)
 
-#new_numbers = [9,10,16,25]
+new_numbers = [9,10,16,25]
 puts square_array(new_numbers)
 
