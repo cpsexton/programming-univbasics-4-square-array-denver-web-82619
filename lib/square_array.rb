@@ -3,7 +3,7 @@ def square_array(array)
   
   while array[counter] do
     sum = Math.sqrt(array[counter])
-    puts sum.join
+    p sum
   
     counter += 1
 
