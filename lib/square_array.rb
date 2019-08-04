@@ -2,7 +2,7 @@ def square_array(array)
   counter = 0
   
   while array[counter] do
-    Math.sqrt
+    num = [Math.sqrt(array[counter]]
     puts num
   
     counter += 1
