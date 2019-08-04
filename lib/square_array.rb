@@ -1,5 +1,7 @@
 def square_array(array)
-array = []
+array = [1, 2, 3]
+
+while 
 
 
 end
