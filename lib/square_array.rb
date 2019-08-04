@@ -2,8 +2,9 @@ def square_array(array)
   counter = 0
   
   while array[counter] do
-    Math.sqrt()
-    p array[counter]
+    y = array[counter]
+    x = Math.sqrt(y)
+    puts x
     
     counter += 1
     end
