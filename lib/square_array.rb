@@ -8,7 +8,7 @@ def square_array(array)
     
     counter += 1
     end
-  p x
+ #p x
 end
 numbers = [1,2,3]
 square_array(numbers)
