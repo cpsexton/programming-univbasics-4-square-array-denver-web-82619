@@ -4,10 +4,11 @@ def square_array(array)
   while counter < array.length do
     y = array[counter]
     x = [y**2]
-    p x
+    
     
     counter += 1
     end
+  p x
 end
 numbers = [1,2,3]
 square_array(numbers)
