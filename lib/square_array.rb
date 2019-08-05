@@ -2,13 +2,11 @@ def square_array(array)
   counter = 0
   
   while array[counter] do
-     p array[counter]**2
-    #x = [y**2]
-    
+    x = []
+    array[counter]**2
     
     counter += 1
-    end
- #p x
+  end
 end
 numbers = [1,2,3]
 square_array(numbers)
