@@ -5,12 +5,11 @@ def square_array(array)
     x = []
     x.push(array[counter]**2)
     counter += 1
-  p x
   end
 end
 numbers = [1,2,3]
 square_array(numbers)
 
 new_numbers = [9,10,16,25]
-square_array(new_numbers)
+p square_array(new_numbers)
 
