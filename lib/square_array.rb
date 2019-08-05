@@ -4,9 +4,9 @@ def square_array(array)
   while array[counter] do
     x = []
     x.push(array[counter]**2)
-    p x.join
     counter += 1
   end
+ p x
 end
 numbers = [1,2,3]
 square_array(numbers)
